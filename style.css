@@ -1,57 +1,62 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    align-content: center;
-    justify-content: center;
-    background-color: #2C2141;
+  display: flex;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+  background: rgb(44, 33, 65);
+  background: linear-gradient(
+    137deg,
+    rgba(44, 33, 65, 1) 0%,
+    rgba(9, 9, 121, 0.7) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .card {
-    margin: 16px;
-    padding: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F8F8F8;
-    width: 624px;
-    border-radius: 16px;
-    font-size: 18px;
-    height: fit-content;
-    display: flex;
-    align-items: flex-start;
+  margin: 16px;
+  padding: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  width: 624px;
+  border-radius: 16px;
+  font-size: 18px;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
 }
 
 .card__name {
-    font-weight: normal;
-    font-size: 36px;
-    color: black;
-    margin: 0px;
+  font-weight: normal;
+  font-size: 36px;
+  color: black;
+  margin: 0px;
 }
 
 .card__avatar {
-    margin-right: 32px;
-    
+  margin-right: 32px;
 }
 
 .card__jobtitle {
-    font-weight: normal;
-    font-size: 18px;
-    font-style: italic;
-    color: #545454;
-    margin-top: 0;
-    margin-bottom: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: italic;
+  color: #545454;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .card__content {
-    color: black;
-    margin-bottom: 18px;
+  color: black;
+  margin-bottom: 18px;
 }
 
 .card__content--emphasis {
-    color: #ed6d05;
-    font-weight: normal;
+  color: #ed6d05;
+  font-weight: normal;
 }
 
 a {
-    color: #e20613;
-    font-weight: normal;
-    text-decoration: none;
+  color: #e20613;
+  font-weight: normal;
+  text-decoration: none;
 }
