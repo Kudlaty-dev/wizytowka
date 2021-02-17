@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background-color: #2C2141;
+}
+
+.card {
+    margin: 16px;
+    padding: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8F8;
+    width: 624px;
+    border-radius: 16px;
+    font-size: 18px;
+    height: fit-content;
+}
+
+.card__name {
+    font-weight: normal;
+    font-size: 36px;
+    color: black;
+    margin: 0px;
+}
+
+.card__avatar {
+    max-width: 148px;
+    overflow-y: auto;
+    float: left;
+    margin-right: 32px;
+    
+}
+
+.card__jobtitle {
+    font-weight: normal;
+    font-size: 18px;
+    font-style: italic;
+    color: #545454;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.card__content {
+    color: black;
+    margin-bottom: 18px;
+}
+
+.card__content--emphasis {
+    color: #ed6d05;
+    font-weight: normal;
+}
+
+a {
+    color: #e20613;
+    font-weight: normal;
+    text-decoration: none;
+}
